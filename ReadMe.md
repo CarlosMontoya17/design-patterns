@@ -30,7 +30,7 @@ The test coverage are located in the `index.html` file within the `Icov-report` 
 | Chain of Responsability | `No` | `No` |
 | Command | `No` | `No` |
 | Composite | `No` | `No` |
-| Decorator | `No` | `No` |
+| Decorator | ✔ `Yes` | ✔ `Yes` |
 | Facade | `No` | `No` |
 | Flyweight | `No` | `No` |
 | Iterator | `No` | `No` |

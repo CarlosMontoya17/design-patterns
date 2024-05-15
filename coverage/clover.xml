@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1715799869847" clover="3.2.0">
-  <project timestamp="1715799869847" name="All files">
-    <metrics statements="42" coveredstatements="42" conditionals="7" coveredconditionals="7" methods="27" coveredmethods="27" elements="76" coveredelements="76" complexity="0" loc="42" ncloc="42" packages="4" files="7" classes="7"/>
+<coverage generated="1715809732566" clover="3.2.0">
+  <project timestamp="1715809732567" name="All files">
+    <metrics statements="58" coveredstatements="58" conditionals="7" coveredconditionals="7" methods="34" coveredmethods="34" elements="99" coveredelements="99" complexity="0" loc="58" ncloc="58" packages="5" files="10" classes="10"/>
+    <package name="decorator">
+      <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+      <file name="component.ts" path="D:\Codes\pattern_designs\patters\decorator\component.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+      </file>
+      <file name="decorator.abstract.ts" path="D:\Codes\pattern_designs\patters\decorator\decorator.abstract.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+      </file>
+      <file name="decorator.ts" path="D:\Codes\pattern_designs\patters\decorator\decorator.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="10000" type="stmt"/>
+        <line num="14" count="10000" type="stmt"/>
+        <line num="15" count="10000" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+      </file>
+    </package>
     <package name="factoryMethod">
       <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
       <file name="concreteCreator.ts" path="D:\Codes\pattern_designs\patters\factoryMethod\concreteCreator.ts">
