@@ -17,27 +17,27 @@ The test coverage are located in the `index.html` file within the `Icov-report` 
 
 ## Patterns
 
-| Pattern | Created | Testing |
-|---------|---------|---------|
-| Singleton | ✔ `Yes` | ✔ `Yes` |
-| Factory Method | ✔ `Yes` | ✔ `Yes` |
-| Strategy | ✔ `Yes` | ✔ `Yes` |
-| Abstract Factory | `No` | `No` |
-| Observer | ✔ `Yes` | ✔ `Yes` |
-| Adapter | `No` | `No` |
-| Bridge | `No` | `No` |
-| Builder | `No` | `No` |
-| Chain of Responsability | `No` | `No` |
-| Command | `No` | `No` |
-| Composite | `No` | `No` |
-| Decorator | ✔ `Yes` | ✔ `Yes` |
-| Facade | `No` | `No` |
-| Flyweight | `No` | `No` |
-| Iterator | `No` | `No` |
-| Mediator | `No` | `No` |
-| Memento | `No` | `No` |
-| Prototype | `No` | `No` |
-| Proxy | `No` | `No` |
-| State | `No` | `No` |
-| Template Method | `No` | `No` |
-| Visitor | `No` | `No` |
+| Pattern | Created | Testing | Type |
+|---------|---------|---------|------|
+| Singleton | ✔ `Yes` | ✔ `Yes` | Creational |
+| Factory Method | ✔ `Yes` | ✔ `Yes` | Creational |
+| Abstract Factory | `No` | `No` | Creational | 
+| Builder | `No` | `No` | Creational |
+| Prototype | `No` | `No` | Creational |
+| Adapter | `No` | `No` | Structural |
+| Bridge | `No` | `No` | Structural |
+| Composite | `No` | `No` | Structural |
+| Decorator | ✔ `Yes` | ✔ `Yes` | Structural |
+| Facade | `No` | `No` | Structural |
+| Flyweight | `No` | `No` | Structural |
+| Proxy | `No` | `No` | Structural |
+| Strategy | ✔ `Yes` | ✔ `Yes` | Behavioral |
+| Observer | ✔ `Yes` | ✔ `Yes` | Behavioral |
+| Chain of Responsability | `No` | `No` | Behavioral |
+| Command | `No` | `No` | Behavioral |
+| Iterator | `No` | `No` | Behavioral |
+| Mediator | `No` | `No` | Behavioral |
+| Memento | `No` | `No` | Behavioral |
+| State | `No` | `No` | Behavioral |
+| Template Method | `No` | `No` | Behavioral |
+| Visitor | `No` | `No` | Behavioral |
