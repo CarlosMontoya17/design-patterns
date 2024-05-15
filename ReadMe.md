@@ -19,9 +19,9 @@ The test coverage are located in the `index.html` file within the `Icov-report` 
 
 | Pattern | Created | Testing |
 |---------|---------|---------|
-| Singleton | `Yes` | `Yes` |
-| Factory Method | `Yes` | `Yes` |
-| Strategy | `No` | `No` |
+| Singleton | ✔ `Yes` | ✔ `Yes` |
+| Factory Method | ✔ `Yes` | ✔ `Yes` |
+| Strategy | ✔ `Yes` | ✔ `Yes` |
 | Abstract Factory | `No` | `No` |
 | Observer | `No` | `No` |
 | Adapter | `No` | `No` |
