@@ -23,7 +23,7 @@ The test coverage are located in the `index.html` file within the `Icov-report` 
 | Factory Method | ✔ `Yes` | ✔ `Yes` |
 | Strategy | ✔ `Yes` | ✔ `Yes` |
 | Abstract Factory | `No` | `No` |
-| Observer | `No` | `No` |
+| Observer | ✔ `Yes` | ✔ `Yes` |
 | Adapter | `No` | `No` |
 | Bridge | `No` | `No` |
 | Builder | `No` | `No` |

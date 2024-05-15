@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1715789820762" clover="3.2.0">
-  <project timestamp="1715789820762" name="All files">
-    <metrics statements="31" coveredstatements="31" conditionals="7" coveredconditionals="7" methods="18" coveredmethods="18" elements="56" coveredelements="56" complexity="0" loc="31" ncloc="31" packages="3" files="5" classes="5"/>
+<coverage generated="1715799869847" clover="3.2.0">
+  <project timestamp="1715799869847" name="All files">
+    <metrics statements="42" coveredstatements="42" conditionals="7" coveredconditionals="7" methods="27" coveredmethods="27" elements="76" coveredelements="76" complexity="0" loc="42" ncloc="42" packages="4" files="7" classes="7"/>
     <package name="factoryMethod">
       <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
       <file name="concreteCreator.ts" path="D:\Codes\pattern_designs\patters\factoryMethod\concreteCreator.ts">
@@ -22,6 +22,26 @@
         <line num="15" count="1" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="observer">
+      <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9"/>
+      <file name="observer.ts" path="D:\Codes\pattern_designs\patters\observer\observer.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+      </file>
+      <file name="subject.ts" path="D:\Codes\pattern_designs\patters\observer\subject.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="20" count="5" type="stmt"/>
       </file>
     </package>
     <package name="singleton">
