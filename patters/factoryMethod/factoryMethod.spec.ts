@@ -1,5 +1,4 @@
 import { RemoteSaleFactory, StoreSaleFactory } from "./concreteCreator";
-import { ISale } from "./product";
 import SaleFactory from "./creator";
 
 describe('Factory Method Pattern', () => {
