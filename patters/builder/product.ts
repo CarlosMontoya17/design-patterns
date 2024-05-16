@@ -12,6 +12,15 @@ export class Car {
         this.price = price; 
     }
 
+    get properties(): { brand: string;model: string;color: string;price: number; } {
+        return { 
+            brand:this.brand,
+            model: this.model,
+            color: this.color,
+            price:this.price
+        };
+    }
+
     getBrand(): string {
         return this.brand;
     }

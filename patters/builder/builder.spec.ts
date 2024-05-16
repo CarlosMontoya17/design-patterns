@@ -19,6 +19,20 @@ describe('Builder pattern', () => {
         const _vw = _carBuilder.build();
         expect(_vw.getBrand()).toStrictEqual("Volkswagen");
     });
+    test('Create a Jetta 2019 VW car correctly', () => {
+        const _carBuilder = new CarBuilder();
+        const _director = new CarDirector(_carBuilder);
+        _director.createJetta2024VWCar("White");
+        const _vw = _carBuilder.build(); 
+        expect(_vw.properties).toStrictEqual(
+            {
+                brand: "Volkswagen",
+                model: "Jetta",
+                color: "White",
+                price: 3000 
+            }
+        );
+    });
     test('Generate key correctly', () => {
         const _carBuilder = new CarBuilder();
         const _director = new CarDirector(_carBuilder);

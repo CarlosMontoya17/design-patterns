@@ -6,16 +6,19 @@ export class CarDirector {
         this.carBuilder = carBuilder;
     }
 
-    setCarBuilder(carBuilder: ICarBuilder): void {
-        this.carBuilder = carBuilder;
-    }
-
-
     createVWCar(model: string, color: string, price: number): void {
         this.carBuilder.reset();
         this.carBuilder.setBrand("Volkswagen")
                         .setModel(model)
                         .setColor(color)
                         .setPrice(price);
+    }
+
+    createJetta2024VWCar(color: string): void {
+        this.carBuilder.reset();
+        this.carBuilder.setBrand("Volkswagen")
+                        .setModel("Jetta")
+                        .setColor(color)
+                        .setPrice(3000);
     }
 }
