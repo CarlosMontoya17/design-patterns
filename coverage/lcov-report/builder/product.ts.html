@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for factoryMethod/concreteCreator.ts</title>
+    <title>Code coverage report for builder/product.ts</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../prettify.css" />
     <link rel="stylesheet" href="../base.css" />
@@ -19,13 +19,13 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../index.html">All files</a> / <a href="index.html">factoryMethod</a> concreteCreator.ts</h1>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">builder</a> product.ts</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>7/7</span>
+                <span class='fraction'>8/8</span>
             </div>
         
             
@@ -46,7 +46,7 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>7/7</span>
+                <span class='fraction'>8/8</span>
             </div>
         
             
@@ -88,10 +88,18 @@
 <a name='L23'></a><a href='#L23'>23</a>
 <a name='L24'></a><a href='#L24'>24</a>
 <a name='L25'></a><a href='#L25'>25</a>
-<a name='L26'></a><a href='#L26'>26</a>
-<a name='L27'></a><a href='#L27'>27</a>
-<a name='L28'></a><a href='#L28'>28</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<a name='L26'></a><a href='#L26'>26</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -105,44 +113,30 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { RemoteSale, StoreSale } from "./concreteProduct";
-import SaleFactory from "./creator";
-import { ISale } from "./product";
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">// Product
+export class Car {
+    private brand!: string;
+    private model!: string;
+    private color!: string;
+    private price!: number;
 &nbsp;
-//Concrete Creator
-export class StoreSaleFactory implements SaleFactory {
-    private _extra!: number;
-&nbsp;
-    constructor(extra: number) {
-        this._extra = extra;
+    constructor(brand: string, model: string, color: string, price: number) {
+        this.brand = brand;
+        this.model = model;
+        this.color = color;
+        this.price = price; 
     }
 &nbsp;
-    public getSale(): ISale {
-        return new StoreSale(this._extra);
-    }
-}
-&nbsp;
-//Concrete Creator
-export class RemoteSaleFactory implements SaleFactory {
-    private _extra!: number;
-    constructor(extra: number) {
-        this._extra = extra;
+    getBrand(): string {
+        return this.brand;
     }
 &nbsp;
-    public getSale(): ISale {
-        return new RemoteSale(this._extra);
+    getKey(): string {
+        return `${this.brand[0]}${this.model[0]}-${this.color[0]}`;
+    }
+&nbsp;
+    getTotalPrice(): number {
+        return this.price * 1.16;
     }
 }</pre></td></tr></table></pre>
 

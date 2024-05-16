@@ -22,7 +22,7 @@ The test coverage are located in the `index.html` file within the `Icov-report` 
 | Singleton | ✔ `Yes` | ✔ `Yes` | Creational |
 | Factory Method | ✔ `Yes` | ✔ `Yes` | Creational |
 | Abstract Factory | `No` | `No` | Creational | 
-| Builder | `No` | `No` | Creational |
+| Builder | ✔ `Yes` | ✔ `Yes` | Creational |
 | Prototype | `No` | `No` | Creational |
 | Adapter | `No` | `No` | Structural |
 | Bridge | `No` | `No` | Structural |
