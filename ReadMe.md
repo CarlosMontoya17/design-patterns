@@ -38,6 +38,6 @@ The test coverage are located in the `index.html` file within the `Icov-report` 
 | Iterator | `No` | `No` | Behavioral |
 | Mediator | `No` | `No` | Behavioral |
 | Memento | `No` | `No` | Behavioral |
-| State | `No` | `No` | Behavioral |
+| State | ✔ `Yes` | ✔ `Yes` | Behavioral |
 | Template Method | `No` | `No` | Behavioral |
 | Visitor | `No` | `No` | Behavioral |
