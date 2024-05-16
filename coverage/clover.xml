@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1715887547077" clover="3.2.0">
-  <project timestamp="1715887547077" name="All files">
-    <metrics statements="111" coveredstatements="111" conditionals="7" coveredconditionals="7" methods="67" coveredmethods="61" elements="185" coveredelements="179" complexity="0" loc="111" ncloc="111" packages="7" files="15" classes="15"/>
+<coverage generated="1715888037633" clover="3.2.0">
+  <project timestamp="1715888037633" name="All files">
+    <metrics statements="111" coveredstatements="111" conditionals="7" coveredconditionals="7" methods="67" coveredmethods="67" elements="185" coveredelements="185" complexity="0" loc="111" ncloc="111" packages="7" files="15" classes="15"/>
     <package name="builder">
       <metrics statements="36" coveredstatements="36" conditionals="0" coveredconditionals="0" methods="15" coveredmethods="15"/>
       <file name="builder.ts" path="D:\Codes\pattern_designs\patters\builder\builder.ts">
@@ -134,11 +134,11 @@
       </file>
     </package>
     <package name="state">
-      <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="18" coveredmethods="12"/>
+      <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="18" coveredmethods="18"/>
       <file name="concreteState.ts" path="D:\Codes\pattern_designs\patters\state\concreteState.ts">
-        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="6"/>
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="12"/>
         <line num="4" count="1" type="stmt"/>
-        <line num="6" count="3" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
         <line num="9" count="3" type="stmt"/>
         <line num="17" count="1" type="stmt"/>
         <line num="18" count="4" type="stmt"/>
@@ -151,12 +151,12 @@
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
         <line num="1" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
-        <line num="8" count="3" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
         <line num="12" count="6" type="stmt"/>
-        <line num="16" count="3" type="stmt"/>
-        <line num="20" count="3" type="stmt"/>
-        <line num="24" count="2" type="stmt"/>
-        <line num="28" count="1" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="20" count="5" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
       </file>
     </package>
     <package name="strategy">
