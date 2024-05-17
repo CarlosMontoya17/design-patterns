@@ -25,7 +25,7 @@ The test coverage are located in the `index.html` file within the `Icov-report` 
 | Builder | ✔ `Yes` | ✔ `Yes` | Creational |
 | Prototype | `No` | `No` | Creational |
 | Adapter | `No` | `No` | Structural |
-| Bridge | `No` | `No` | Structural |
+| Bridge | ✔ `Yes` | ✔ `Yes` | Structural |
 | Composite | `No` | `No` | Structural |
 | Decorator | ✔ `Yes` | ✔ `Yes` | Structural |
 | Facade | `No` | `No` | Structural |
